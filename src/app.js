@@ -14,7 +14,7 @@ const port = process.env.PORT || 3000
 
 //DEFINE PATHS FOR EXPRESS CONFIG
 const PubDirPath = path.join(__dirname, '../public')
-const viewsPath = path.join(__dirname, '../Templates/views')
+const viewsPath = path.join(__dirname, '../templates/views')  
 
 const parPath = path.join(__dirname, '../templates/partials')
 
