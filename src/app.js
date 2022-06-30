@@ -98,18 +98,18 @@ app.get('/weather', (req, res) => {
     //     })
 })
 
-app.get('/products', (req, res) => {
-    if (!req.query.search) {
-        return res.send({
-            error: 'Please enter a search term:)'
-        })
+// app.get('/products', (req, res) => {
+//     if (!req.query.search) {
+//         return res.send({
+//             error: 'Please enter a search term:)'
+//         })
 
-    }
-    console.log(req.query.search)
-    res.send({
-        products: []
-    })
-})
+//     }
+//     console.log(req.query.search)
+//     res.send({
+//         products: []
+//     })
+// })
 
 app.get('/help/*', (req, res) => {
     res.render('Help404', {
