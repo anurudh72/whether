@@ -63,7 +63,7 @@ app.get('/document', (req, res) => {
 })
 
 
-app.get('/Weather', (req, res) => {
+app.get('/weather', (req, res) => {
     if (!req.query.address) {
         return res.send({
             error: 'Please enter an address:)'
