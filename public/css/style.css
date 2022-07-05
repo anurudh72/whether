@@ -10,24 +10,23 @@ body{
     min-height: 100vh;
 }
 .main-content{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: x-large;
     font-weight: bold;
     /* color: black; */
     /* color: rgba(0, 0, 0, 0.66); */
-    color: rgb(21, 255, 0);
+    color: rgb(175, 255, 168);
     flex-grow: 1;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 5%;
+    padding-right: 0;
     }
 footer{
     color: #fa68c7;
     text-decoration: underline;
-    text-align-last: center;
+    text-align: center;
     /* border-top: 2px solid #eeeeee; */
     margin-top: 10;
-    padding: 0 80px;
     font-size: x-large;
     font-weight: bolder;
     /* margin: 10; */
@@ -38,11 +37,11 @@ header{
 }
 
 h1{
-    margin-left: 100px;
+    margin-left: 20%;
     font-size: 40px;
     padding-top: 25px;
     margin-bottom: 16px;
-    padding-left: 200px;
+    padding-left: 5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(215, 0, 253);
     /* font-weight: bold; */
@@ -61,6 +60,9 @@ header a{
 input{
     border: 1px solid #cccccc;
     padding : 8px;
+    padding-right: 8px;  
+    width: 52%;  
+    /* margin-right: 10%; */
 }
 button{
     cursor: pointer;
@@ -70,6 +72,7 @@ button{
     padding: 8px;
 }
 .bground{
+    background-color: #151017;
     background-image: url('../img/pic4.jpg');
     height: 100vh; 
     background-repeat: no-repeat; 
